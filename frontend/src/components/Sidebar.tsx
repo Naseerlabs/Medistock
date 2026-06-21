@@ -147,7 +147,9 @@ export default function Sidebar({ role }: SidebarProps) {
           </div>
         ) : (
           <div className="flex items-center gap-3">
-            <div className="sidebar-logo-box">M</div>
+            <div className="w-9 h-9 rounded-xl bg-slate-50 flex items-center justify-center overflow-hidden border border-slate-100 shrink-0">
+              <img src="/logo.png" alt="MediStock" className="w-full h-full object-contain" />
+            </div>
             <div>
               <p className="font-bold text-sm text-slate-900">MediStock</p>
               <p className="text-xs text-slate-500">Hospital Supply</p>

@@ -58,8 +58,8 @@ export default function Login() {
       <div className="login-card p-8 sm:p-10">
         {/* Logo */}
         <div className="flex flex-col items-center mb-8">
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center text-white text-2xl font-bold shadow-lg shadow-blue-600/30 mb-4">
-            M
+          <div className="w-16 h-16 rounded-2xl bg-slate-50 flex items-center justify-center overflow-hidden border border-slate-100 shadow-md mb-4 p-1">
+            <img src="/logo.png" alt="MediStock Logo" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-2xl font-extrabold text-slate-900">MediStock</h1>
           <p className="text-sm text-slate-500 mt-1">Hospital Inventory Management</p>
